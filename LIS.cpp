@@ -17,10 +17,6 @@ int bs(int n, int tar)
             r = mid - 1;
         else
             l = mid + 1;
-//        printf("%d %d %d %d %d\n", l, r, mid, tar, lis[mid]);
-//        for(int i=0; i<n; i++)
-//            printf("%d ", lis[i]);
-//        printf("\n");
     }
     if (l != n)
         return max(0, l);
